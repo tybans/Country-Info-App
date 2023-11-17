@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #440a0a96;
+    /* background-color: cornflowerblue; */
+
+}
+
+ 
+
+.country-container {
+
+    background-color: #883939;
+    /* background-color: cornsilk; */
+    color: darkkhaki;
+    width: 80vh;
+    padding: 1.25em;
+    border-radius: 0.5em;
+    box-shadow: 0 0.5em 1.8em rgba(0, 0,0, 0.6);
+
+}
+
+.country-container h1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.country-info {
+
+    margin-top: 1.25em;
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+
+}
+
+.country-info .btn{
+    font-size: 1em;
+    background-color: rgb(93, 163, 47);
+    
+    /* color: bisque; */
+    padding: 0.25em;
+    /* font-size: bold; */
+    font-weight: bold;
+    border: none;
+    border-radius: 0.3em;
+    margin-left: 0.125em;
+}
+
+.country-info .btn:hover{
+    background-color: rgba(0, 255, 21, 0.699);
+    box-shadow:  0 0 0.2em rgb(166, 196, 16);
+    /* transform: scale(1.1); */
+    border: none;
+}
+
+.country-info input{
+    font-size: 1.125em;
+    font-weight: bold;
+    padding: 0.25em;
+    border: none;
+    border-radius: 0.3122em;
+    margin-right: 0.5em;
+    text-align: center;
+    /* color: black; */
+    outline: none;
+}
+
+#result{
+    margin-top: 1.25em;
+}
+
+.country-container .flag-img{
+    display: block;
+    width: 50%;
+    min-width: 7.5em;
+    margin: 1.8em auto 1.2em auto;
+}
+
+.country-container h2{
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.8em;
+}
+
+.data-wrapper{
+    margin-bottom: 1em;
+    letter-spacing: 0.3px;
+}
+
+.country-container h4{
+    display: inline;
+    font-weight: 500;
+}
+
+.country-container span{
+    font-weight: bold;
+    /* color: mediumaquamarine; */
+}
+
+.country-container h3{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+
+}
