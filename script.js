@@ -3,7 +3,7 @@ let inputBar = document.getElementById("country-input");
 
 searchBtn.addEventListener("click", () =>{
     let countryName = inputBar.value;
-    let url = `https://restcountries.com/v3.1/name/${countryName}?all`;
+    let url = `https://restcountries.com/v3.1/name/${countryName}?fullText=true`;
     console.log(url);
     fetch(url)
     .then((response) => response.json())
